@@ -70,7 +70,7 @@ body{
 }
 
 .card2title{
-    font-size: 80px;
+    font-size: 75px;
     color: white;
     text-align: center;
 }
@@ -133,13 +133,13 @@ body{
 }
 
 .cardimg5{
-    height: 32%;
+    height: 28%;
 }
 
 .card5text{
     margin-top: 10px;
     line-height: 0.8;
-    font-size: 42px;
+    font-size: 40px;
     text-align: left;
 }
 
