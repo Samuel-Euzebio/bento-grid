@@ -197,11 +197,41 @@ body{
     padding-top: 45px;
 }
 
-
 footer{
-    display: none;
     position: fixed;
+    left: 50%;
+    transform: translate(-50%);
     bottom: 10px;
     font-size: 11px; 
     text-align: center;
+}
+
+@media (max-width: 710px) {
+
+    .cards-content{
+        grid-template-areas: 
+        'create'
+        'social'
+        'schedule'
+        'write'
+        'manage'
+        'maintain'
+        'audience'
+        'grow';
+        grid-auto-rows: auto; 
+        grid-template-columns: 1fr; 
+    }
+
+    .card2title{
+        font-size: 50px;
+    }
+
+    .card6{
+        height: 40vh;
+    }
+    
+    .card8{
+        grid-template-columns: 1fr;
+    }
+
 }
