@@ -197,15 +197,6 @@ body{
     padding-top: 45px;
 }
 
-footer{
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 10px;
-    font-size: 11px; 
-    text-align: center;
-}
-
 @media (max-width: 710px) {
 
     .cards-content{
